@@ -11,11 +11,11 @@ namespace EditorHtml
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
-            Console.WriteLine("MODO VISUALIZAÇÃO");
+            Console.WriteLine("Visualization Mode");
             Console.WriteLine("----------------------------------------");
             Replace(text);
             Console.WriteLine("----------------------------------------");
-            Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+            Console.WriteLine("Press any key to go back to menu");
             Console.ReadKey();
             Menu.Show();
         }

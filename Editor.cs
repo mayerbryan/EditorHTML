@@ -11,7 +11,7 @@ namespace EditorHtml
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
-            Console.WriteLine("MODO EDITOR");
+            Console.WriteLine("Editor Mode");
             Console.WriteLine("----------------------------------------");
             Start();
         }
@@ -27,7 +27,7 @@ namespace EditorHtml
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
             Console.WriteLine("----------------------------------------");
-            Console.WriteLine("Deseja salvar este arquivo?");
+            Console.WriteLine("Want to save the file?");
             Viewer.Show(file.ToString());
         }
     }
